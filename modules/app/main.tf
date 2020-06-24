@@ -55,4 +55,7 @@ resource "rancher_stack" "lb" {
 
   docker_compose = <<EOF
   EOF
+
+  rancher_compose = <<EOF
+  EOF
 }
